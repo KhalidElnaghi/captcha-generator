@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Captcha Generator</title>
+    <!--!=====> Style Sheet Link  -->
+    <link rel="stylesheet" href="style.css" />
+    <!--!=====> Script File  Link  -->
+    <script src="app.js" defer></script>
+    <!--!=====> ionicons Link  -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+      defer
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+      defer
+    ></script>
+  </head>
+  <body>
+    <div class="container">
+      <header>Captcha Generator</header>
+      <div class="input_field captcha_box">
+        <input type="text" value="disabled" />
+        <button class="refresh_button">
+         
+        </button>
+      </div>
+      <div class="input_field captcha_input">
+        <input type="text" placeholder="Enter captcha" />
+      </div>
+      <div class="message">Entered captcha is correct</div>
+      <div class="input_field button disabled">
+        <button>Submit Captcha</button>
+      </div>
+    </div>
+  </body>
+</html>
